@@ -1986,3 +1986,25 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.badge {
+	transition: all 0.3s ease-in-out;
+	cursor: default;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+  
+.badge:hover {
+	transform: translateY(-2px) scale(1.05);
+	box-shadow: 0 4px 10px rgba(255, 189, 57, 0.3); /* soft glow effect */
+}
+
+.project .text h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.project .text p {
+	font-size: 0.95rem;
+	color: #ccc;
+	margin-bottom: 10px;
+}
